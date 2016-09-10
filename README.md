@@ -10,3 +10,4 @@ An example repository for demonstrating the power of git-bisect.
 4. `git bisect bad`
 5. `git bisect good $(git rev-list HEAD | tail -n 1)`
 6. `git bisect run nosetests`
+7. `git bisect reset`
