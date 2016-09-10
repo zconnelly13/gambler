@@ -16,6 +16,5 @@ def gamble_karma(amount=1):
         amount_to_win = int(amount * MULTIPLIERS[slot] * .2)
     if count == 3:
         amount_to_win = amount * MULTIPLIERS[slot]
-        amount_to_win = amount * MULTIPLIERS[slot]
 
     return amount_to_win
